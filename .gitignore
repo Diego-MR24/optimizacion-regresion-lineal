@@ -1,4 +1,4 @@
 __pycache__
-reports/results/*.csv
-reports/figures/*.png
-reports/figures/*.jpg
+#reports/results/*.csv
+#reports/figures/*.png
+#reports/figures/*.jpg
