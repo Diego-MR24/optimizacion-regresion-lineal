@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 import numpy as np
+import random
 
 from src import (
     amplitud,
@@ -12,6 +13,11 @@ from src import (
     plot_solucion,
     plot_boxplot,
 )
+
+# Configuración de semilla inicial
+SEMILLA = 42
+np.random.seed(SEMILLA)
+random.seed(SEMILLA)
 
 print("=== PROYECTO DE OPTIMIZACIÓN: 30 EJECUCIONES ===")
 
